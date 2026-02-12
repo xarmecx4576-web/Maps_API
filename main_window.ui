@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>725</width>
-    <height>600</height>
+    <width>972</width>
+    <height>607</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,14 +17,40 @@
    <widget class="QLabel" name="g_map">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>0</y>
+      <x>0</x>
+      <y>60</y>
       <width>781</width>
-      <height>541</height>
+      <height>491</height>
      </rect>
     </property>
     <property name="text">
      <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PgUp">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>0</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>увеличивать</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PgDown">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>0</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>уменьшать</string>
     </property>
    </widget>
   </widget>
@@ -33,7 +59,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>725</width>
+     <width>972</width>
      <height>21</height>
     </rect>
    </property>
