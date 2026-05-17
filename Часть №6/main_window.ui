@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>820</width><height>650</height></rect>
+  </property>
+  <property name="windowTitle">
+   <string>Карта с поиском</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="g_map">
+    <property name="geometry">
+     <rect><x>10</x><y>130</y><width>650</width><height>450</height></rect>
+    </property>
+    <property name="text">
+     <string>Карта</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="objectName">
+     <string>g_map</string>
+    </property>
+   </widget>
+
+   <widget class="QLineEdit" name="searchInput">
+    <property name="geometry">
+     <rect><x>15</x><y>12</y><width>350</width><height>32</height></rect>
+    </property>
+    <property name="placeholderText">
+     <string>Введите адрес или объект</string>
+    </property>
+   </widget>
+
+   <widget class="QPushButton" name="searchBtn">
+    <property name="geometry">
+     <rect><x>370</x><y>12</y><width>90</width><height>32</height></rect>
+    </property>
+    <property name="text">
+     <string>Искать</string>
+    </property>
+   </widget>
+
+   <widget class="QPushButton" name="PgUp">
+    <property name="geometry">
+     <rect><x>360</x><y>55</y><width>75</width><height>28</height></rect>
+    </property>
+    <property name="text">
+     <string>Вверх</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PgDown">
+    <property name="geometry">
+     <rect><x>360</x><y>87</y><width>75</width><height>28</height></rect>
+    </property>
+    <property name="text">
+     <string>Вниз</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PgRight">
+    <property name="geometry">
+     <rect><x>440</x><y>71</y><width>75</width><height>28</height></rect>
+    </property>
+    <property name="text">
+     <string>Вправо</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PgLeft">
+    <property name="geometry">
+     <rect><x>280</x><y>71</y><width>75</width><height>28</height></rect>
+    </property>
+    <property name="text">
+     <string>Влево</string>
+    </property>
+   </widget>
+
+   <widget class="QCheckBox" name="themeToggle">
+    <property name="geometry">
+     <rect><x>470</x><y>12</y><width>140</width><height>32</height></rect>
+    </property>
+    <property name="text">
+     <string>Тёмная тема</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
