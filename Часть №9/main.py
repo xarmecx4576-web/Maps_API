@@ -289,7 +289,7 @@ class MainWindow(QMainWindow):
         }
 
         if self.search_point is not None:
-            map_params["pt"] = f"{self.search_point[0]:.6f},{self.search_point[1]:.6f},flag,red"
+            map_params["pt"] = f"{self.search_point[0]:.6f},{self.search_point[1]:.6f},pm2rdm"
 
         session = requests.Session()
         session.mount('https://', HTTPAdapter(max_retries=Retry(total=2, backoff_factor=0.5)))
